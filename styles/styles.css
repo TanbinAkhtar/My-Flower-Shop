@@ -7,15 +7,21 @@ body {
 
 /*--------------- Banner part ----------------*/
 .banner {
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: blueviolet;
     padding: 100px;
 }
 
 .banner-text {
-    padding-right: 200px;
-    align-items: center;
-    justify-content: center;
+
+    width: 708px;
+    height: 506px;
+    display: block;
+    padding: 240px 197px;
+
 }
 
 .title {
@@ -35,7 +41,8 @@ body {
 }
 
 .banner-image {
-    width: 300px;
+    width: 635px;
+    height: 800px;
     padding-right: 100px;
     align-items: center;
     justify-content: center;
@@ -44,8 +51,11 @@ body {
 
 /* ----------------Sale-Part --------------- */
 .sale {
+    width: 100%;
     background-color: blanchedalmond;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
 }
 
@@ -70,21 +80,45 @@ body {
 }
 
 .sale-image {
-    width: 200px;
+    width: 318px;
+    height: 420;
     padding: 90px 250px 80px 20px;
     ;
 }
 
+/*------------------- latest deal ------------------------*/
+
+.latest-deal {
+    width: 100%;
+    background-image: url(../images/Rectangle\ 9.png);
+    height: 500px;
+    background-repeat: no-repeat;
+
+    margin-top: 100px;
+}
+
+.deal-text {
+    position: absolute;
+}
+
 /* ------------- footer-part ------------------*/
 .footer-part {
-    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
     margin-top: 50px;
+    color: white;
 
 }
 
 .footer-title {
     font-size: 20px;
-    padding: 50px 500px 0px 500px;
+    padding: 50px 500px 0px 300px;
+}
+
+.single-word {
+    color: blueviolet;
 }
 
 .footer-text {
