@@ -1,0 +1,76 @@
+/* font */
+body {
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*--------------- Banner part ----------------*/
+.banner {
+    display: flex;
+    background-color: blueviolet;
+    padding: 100px;
+}
+
+.banner-text {
+    padding-right: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.title-text {
+    font-size: 20px;
+}
+
+.banner-button {
+    background-color: brown;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.banner-image {
+    width: 300px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ----------------Sale-Part --------------- */
+.sale {
+    background-color: blanchedalmond;
+    display: flex;
+    margin-top: 10px;
+}
+
+.sale-text-part {
+    padding: 90px 150px 10px 200px;
+}
+
+.sale-header {
+    font-size: 30px;
+}
+
+.sale-text {
+    font-size: 15px;
+}
+
+.sale-button {
+    background-color: brown;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.sale-image {
+    width: 200px;
+    padding: 90px 250px 80px 20px;
+    ;
+}
