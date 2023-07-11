@@ -12,13 +12,13 @@ header {
 
 .banner {
 
-    width: 2400px;
+    width: 100%;
     height: 1300px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: blueviolet;
-    padding: 100px;
+    padding: 100px 100px 0px 100px;
 }
 
 .banner-text {
@@ -47,11 +47,48 @@ header {
 }
 
 .banner-image {
-    width: 635px;
-    height: 800px;
+    width: 900px;
+    height: 1200px;
     padding-right: 100px;
-    align-items: center;
+
+}
+
+/*------------- feather-part  ----------------*/
+#feather-part {
+    display: flex;
     justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.feather-img-1 {
+    width: 400px;
+    background-color: pink;
+    border: 1px solid pink;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    padding: 100px 100px 0px 100px;
+}
+
+.feather-img-2 {
+    width: 400px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    padding: 100px;
+}
+
+.feather-img-3 {
+    width: 400px;
+    background-color: wheat;
+    border: 1px solid wheat;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    padding: 70px 70px 0px 70px;
 }
 
 
@@ -63,7 +100,7 @@ header {
 }
 
 .sale {
-    width: 3200px;
+    width: 100%;
     height: 700px;
 
     background-color: blanchedalmond;
@@ -101,6 +138,28 @@ header {
     ;
 }
 
+/* --------------Instagram-part ----------------------------*/
+
+#instagram-part {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-pera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-title {
+    font-size: 70px;
+}
+
+.instagram-text {
+    font-size: 35px;
+}
+
 /*------------------- latest deal ------------------------*/
 
 .latest-deal {
@@ -114,6 +173,7 @@ header {
 
 .deal-text {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 150px;
@@ -126,7 +186,7 @@ footer {
 }
 
 .footer-part {
-    width: 3200px;
+    width: 100%;
     height: 700px;
     display: flex;
     align-items: center;
