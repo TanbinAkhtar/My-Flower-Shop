@@ -1,13 +1,19 @@
 /* font */
 body {
-
     font-family: 'Open Sans', sans-serif;
-
 }
 
 /*--------------- Banner part ----------------*/
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
 .banner {
-    width: 100%;
+
+    width: 2400px;
+    height: 1300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,23 +24,23 @@ body {
 .banner-text {
 
     width: 708px;
-    height: 506px;
+    height: 706px;
     display: block;
     padding: 240px 197px;
 
 }
 
 .title {
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .title-text {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .banner-button {
     background-color: brown;
-    font-size: 25px;
+    font-size: 40px;
     padding: 10px 30px;
     border-radius: 30px;
     margin-top: 10px;
@@ -50,30 +56,39 @@ body {
 
 
 /* ----------------Sale-Part --------------- */
+
+#sale-section {
+    display: flex;
+    justify-content: center;
+}
+
 .sale {
-    width: 100%;
+    width: 3200px;
+    height: 700px;
+
     background-color: blanchedalmond;
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
 .sale-text-part {
-    padding: 90px 150px 10px 200px;
+    padding: 90px 200px 10px 700px;
 }
 
 .sale-header {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .sale-text {
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .sale-button {
     background-color: brown;
-    font-size: 17px;
+    font-size: 35px;
     padding: 10px 30px;
     border-radius: 30px;
     margin-top: 20px;
@@ -82,27 +97,37 @@ body {
 .sale-image {
     width: 318px;
     height: 420;
-    padding: 90px 250px 80px 20px;
+    padding: 90px 800px 80px 20px;
     ;
 }
 
 /*------------------- latest deal ------------------------*/
 
 .latest-deal {
-    width: 100%;
-    background-image: url(../images/Rectangle\ 9.png);
-    height: 500px;
-    background-repeat: no-repeat;
 
+    background-image: url(../images/Rectangle\ 9.png);
+    background-position: center center;
+    background-size: 3200px 2000px;
+    background-repeat: no-repeat;
     margin-top: 100px;
 }
 
 .deal-text {
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
 }
 
 /* ------------- footer-part ------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-part {
+    width: 3200px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,8 +138,8 @@ body {
 }
 
 .footer-title {
-    font-size: 20px;
-    padding: 50px 500px 0px 300px;
+    font-size: 56px;
+    padding: 50px 700px 0px 700px;
 }
 
 .single-word {
@@ -122,6 +147,6 @@ body {
 }
 
 .footer-text {
-    font-size: 15px;
-    padding: 0px 400px 50px 400px;
+    font-size: 30px;
+    padding: 0px 1000px 50px 800px;
 }
