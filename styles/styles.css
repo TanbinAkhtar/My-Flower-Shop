@@ -4,53 +4,42 @@ body {
 }
 
 /*--------------- Banner part ----------------*/
-header {
-    display: flex;
-    justify-content: center;
-
-}
-
 .banner {
-
     width: 100%;
-    height: 1300px;
+    height: 1700px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: blueviolet;
-    padding: 100px 100px 0px 100px;
+    background-color: pink;
+
 }
 
 .banner-text {
-
-    width: 708px;
-    height: 706px;
-    display: block;
-    padding: 240px 197px;
-
+    width: 2000px;
+    padding-right: 500px;
+    padding-top: 250px;
 }
 
 .title {
-    font-size: 75px;
+    font-size: 150px;
 }
 
 .title-text {
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .banner-button {
-    background-color: brown;
-    font-size: 40px;
-    padding: 10px 30px;
-    border-radius: 30px;
-    margin-top: 10px;
+    background-color: rgb(219, 42, 77);
+    font-size: 60px;
+    padding: 50px 80px;
+    border-radius: 40px;
+    margin-top: 5px;
+
 }
 
 .banner-image {
-    width: 900px;
-    height: 1200px;
-    padding-right: 100px;
-
+    width: 1000px;
+    height: 1300px;
+    padding: 400px 10px 0px 10px;
 }
 
 /*------------- feather-part  ----------------*/
@@ -58,11 +47,28 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
+.feather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
 
+.feather-title {
+    font-size: 120px;
+}
+
+.feather-text {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.feather-images {
+    display: flex;
+}
 
 .feather-img-1 {
     width: 400px;
@@ -70,7 +76,8 @@ header {
     border: 1px solid pink;
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
-    padding: 100px 100px 0px 100px;
+    padding: 200px 100px 0px 100px;
+    margin-right: 50px;
 }
 
 .feather-img-2 {
@@ -79,7 +86,12 @@ header {
     border: 1px solid skyblue;
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
-    padding: 100px;
+    margin-right: 50px;
+    padding: 250px 90px 100px 90px;
+}
+
+#red-flower-a {
+    font-size: 60px;
 }
 
 .feather-img-3 {
@@ -88,7 +100,7 @@ header {
     border: 1px solid wheat;
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
-    padding: 70px 70px 0px 70px;
+    padding: 150px 90px 0px 90px;
 }
 
 
@@ -101,40 +113,40 @@ header {
 
 .sale {
     width: 100%;
-    height: 700px;
-
+    height: 1000px;
     background-color: blanchedalmond;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .sale-text-part {
-    padding: 90px 200px 10px 700px;
+    padding: 90px 0 10px 1400px;
+
 }
 
 .sale-header {
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .sale-text {
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .sale-button {
     background-color: brown;
-    font-size: 35px;
-    padding: 10px 30px;
-    border-radius: 30px;
+    font-size: 45px;
+    padding: 50px 80px;
+    border-radius: 40px;
     margin-top: 20px;
 }
 
 .sale-image {
-    width: 318px;
-    height: 420;
-    padding: 90px 800px 80px 20px;
+    width: 500px;
+    height: 700px;
+    padding: 90px 1600px 80px 20px;
     ;
 }
 
@@ -143,6 +155,7 @@ header {
 #instagram-part {
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 .instagram-pera {
@@ -165,13 +178,16 @@ header {
 .latest-deal {
 
     background-image: url(../images/Rectangle\ 9.png);
+
     background-position: center center;
-    background-size: 3200px 2000px;
+    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .deal-text {
+    font-size: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,8 +195,18 @@ header {
     padding: 150px;
 }
 
+.deal-text h1 {
+    font-size: 100px;
+}
+
+.e-mail {
+    font-size: 50px;
+    width: 1000px;
+}
+
 /* ------------- footer-part ------------------*/
 footer {
+    margin-top: 200px;
     display: flex;
     justify-content: center;
 }
@@ -198,7 +224,7 @@ footer {
 }
 
 .footer-title {
-    font-size: 56px;
+    font-size: 100px;
     padding: 50px 700px 0px 700px;
 }
 
@@ -207,6 +233,6 @@ footer {
 }
 
 .footer-text {
-    font-size: 30px;
+    font-size: 40px;
     padding: 0px 1000px 50px 800px;
 }
