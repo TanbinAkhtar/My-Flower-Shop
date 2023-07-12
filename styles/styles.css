@@ -1,4 +1,4 @@
-/* font */
+/*---------------------- font -----------------*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,10 +6,10 @@ body {
 /*--------------- Banner part ----------------*/
 .banner {
     width: 100%;
-    height: 1700px;
+    height: 2000px;
     display: flex;
     justify-content: center;
-    background-color: pink;
+    background-color: rgb(242, 207, 242);
 
 }
 
@@ -28,7 +28,10 @@ body {
 }
 
 .banner-button {
-    background-color: rgb(219, 42, 77);
+    background-color: rgb(162, 80, 162);
+    border: 1px rgb(162, 80, 162);
+    box-shadow: 10px 10px 10px 5px gray;
+    color: aliceblue;
     font-size: 60px;
     padding: 50px 80px;
     border-radius: 40px;
@@ -37,9 +40,9 @@ body {
 }
 
 .banner-image {
-    width: 1000px;
-    height: 1300px;
-    padding: 400px 10px 0px 10px;
+    width: 1500px;
+    height: 1900px;
+    padding: 100px 10px 0px 10px;
 }
 
 /*------------- feather-part  ----------------*/
@@ -54,16 +57,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 500px;
+
 }
 
 .feather-title {
     font-size: 120px;
+    margin-bottom: 0px;
 }
 
 .feather-text {
     font-size: 40px;
-    padding: 10px;
+    margin-bottom: 160px;
 }
 
 .feather-images {
@@ -71,37 +76,147 @@ body {
 }
 
 .feather-img-1 {
-    width: 400px;
-    background-color: pink;
-    border: 1px solid pink;
-    border-top-right-radius: 300px;
-    border-top-left-radius: 300px;
-    padding: 200px 100px 0px 100px;
-    margin-right: 50px;
+    width: 700px;
+    background-color: rgb(247, 218, 223);
+    border: 1px solid rgb(247, 218, 223);
+    border-top-right-radius: 500px;
+    border-top-left-radius: 500px;
+    padding: 250px 150px 0px 150px;
+    margin-right: 100px;
+}
+
+#pink-flower-tree {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    margin-top: 45px;
 }
 
 .feather-img-2 {
-    width: 400px;
-    background-color: skyblue;
-    border: 1px solid skyblue;
-    border-top-right-radius: 300px;
-    border-top-left-radius: 300px;
-    margin-right: 50px;
-    padding: 250px 90px 100px 90px;
+    width: 800px;
+    background-color: rgb(203, 233, 245);
+    border: 1px solid rgb(203, 233, 245);
+    border-top-right-radius: 500px;
+    border-top-left-radius: 500px;
+    margin-right: 100px;
+    padding: 300px 90px 120px 90px;
 }
 
-#red-flower-a {
-    font-size: 60px;
-}
+
+
 
 .feather-img-3 {
-    width: 400px;
-    background-color: wheat;
-    border: 1px solid wheat;
-    border-top-right-radius: 300px;
-    border-top-left-radius: 300px;
-    padding: 150px 90px 0px 90px;
+    width: 750px;
+    background-color: rgb(227, 221, 221);
+    border: 1px solid rgb(227, 221, 221);
+    border-top-right-radius: 500px;
+    border-top-left-radius: 500px;
+    padding: 120px 110px 0px 120px;
 }
+
+
+/* ------------- bouquet part---------------------- */
+
+.bookey {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.bookey-title h1 {
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+.bookey-text {
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.bookey-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2000px;
+}
+
+.card-1 {
+    border: 1px solid gray;
+
+    box-shadow: 20px 20px 30px 20px gray;
+}
+
+.card-2 {
+    border: 1px solid gray;
+
+    box-shadow: 20px 20px 30px 20px gray;
+    margin-left: 90px;
+}
+
+.card-3 {
+    border: 1px solid gray;
+
+    box-shadow: 20px 20px 30px 20px gray;
+    margin-left: 90px;
+
+}
+
+.card-4 {
+    border: 1px solid gray;
+
+    box-shadow: 20px 20px 30px 20px gray;
+    margin-left: 90px;
+
+}
+
+.box-1 img {
+    width: 900px;
+
+    margin-left: 20px;
+}
+
+.box-2 img {
+    width: 900px;
+    margin-left: 20px;
+}
+
+.box-3 img {
+    width: 865px;
+
+    margin-left: 20px;
+}
+
+.box-4 img {
+    width: 900px;
+
+    margin-left: 20px;
+}
+
+.bouquets-title {
+    width: 700px;
+    font-size: 75px;
+    padding-left: 200px;
+    padding-top: 60px;
+    border-top: 5px solid gray;
+
+
+}
+
+.bouquets-text {
+    font-size: 59px;
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+
+
 
 
 /* ----------------Sale-Part --------------- */
@@ -109,12 +224,13 @@ body {
 #sale-section {
     display: flex;
     justify-content: center;
+    margin-top: 300px;
 }
 
 .sale {
     width: 100%;
-    height: 1000px;
-    background-color: blanchedalmond;
+    height: 2000px;
+    background-color: rgb(242, 219, 185);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,31 +238,37 @@ body {
 }
 
 .sale-text-part {
-    padding: 90px 0 10px 1400px;
+    width: 1000px;
+    padding-right: 100px;
+    padding-left: 1000px;
 
 }
 
 .sale-header {
-    font-size: 100px;
-}
-
-.sale-text {
-    font-size: 40px;
+    font-size: 140px;
     margin-bottom: 10px;
 }
 
+.sale-text {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
 .sale-button {
-    background-color: brown;
-    font-size: 45px;
+    background-color: rgb(217, 155, 80);
+    box-shadow: 10px 10px 10px 10px rgb(220, 174, 117);
+    border: 1px solid rgb(217, 155, 80);
+    color: black;
+    font-size: 60px;
     padding: 50px 80px;
     border-radius: 40px;
     margin-top: 20px;
 }
 
 .sale-image {
-    width: 500px;
-    height: 700px;
-    padding: 90px 1600px 80px 20px;
+    width: 800px;
+    height: 1000px;
+    padding: 90px 1200px 80px 20px;
     ;
 }
 
@@ -155,7 +277,7 @@ body {
 #instagram-part {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 500px;
 }
 
 .instagram-pera {
@@ -166,11 +288,14 @@ body {
 }
 
 .instagram-title {
-    font-size: 70px;
+    font-size: 120px;
+    margin-bottom: 0px;
 }
 
 .instagram-text {
-    font-size: 35px;
+    font-size: 50px;
+    margin-bottom: 70px;
+
 }
 
 /*------------------- latest deal ------------------------*/
@@ -178,16 +303,14 @@ body {
 .latest-deal {
 
     background-image: url(../images/Rectangle\ 9.png);
-
     background-position: center center;
-    background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 200px;
 }
 
 .deal-text {
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,25 +318,46 @@ body {
     padding: 150px;
 }
 
+.email-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .deal-text h1 {
-    font-size: 100px;
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+.subscribe button {
+    background-color: blueviolet;
+    height: 90px;
+    width: 200;
+    border: white;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 20px 40px 20px 40px;
 }
 
 .e-mail {
     font-size: 50px;
-    width: 1000px;
+    border: white;
+    border-radius: 20px;
+    width: 1200px;
+    padding: 30px 100px 30px 20px;
+    margin-right: 40px;
 }
 
 /* ------------- footer-part ------------------*/
 footer {
-    margin-top: 200px;
+    margin-top: 400px;
     display: flex;
     justify-content: center;
 }
 
 .footer-part {
     width: 100%;
-    height: 700px;
+    height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,7 +369,7 @@ footer {
 
 .footer-title {
     font-size: 100px;
-    padding: 50px 700px 0px 700px;
+    padding: 50px 900px 0px 700px;
 }
 
 .single-word {
